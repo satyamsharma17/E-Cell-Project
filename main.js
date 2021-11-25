@@ -20,16 +20,16 @@ const highlightMenu = () => {
   let scrollPos = window.scrollY;
 
   // Logic for highlighting menu items.
-  if (window.innerWidth > 960 && scrollPos < 750) {
+  if (window.innerWidth > 960 && scrollPos < 743) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1450) {
+  } else if (window.innerWidth > 960 && scrollPos < 1481) {
     aboutMenu.classList.add('highlight');
     homeMenu.classList.remove('highlight');
     initiativesMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2290) {
+  } else if (window.innerWidth > 960 && scrollPos < 2224) {
     initiativesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     galleryMenu.classList.remove('highlight');
