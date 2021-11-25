@@ -195,12 +195,12 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 100vh;
+    height: 102vh;
     background-color: #131313;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding-right: 0.2px;
+    padding-right: 30px;
     padding-left: 30px;
 }
   
