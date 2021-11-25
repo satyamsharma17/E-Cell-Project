@@ -618,7 +618,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .initiatives__wrapper {git
+    .initiatives__wrapper {
       grid-template-columns: 1fr;
     }
   }
