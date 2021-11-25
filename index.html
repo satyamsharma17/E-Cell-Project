@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Cell Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a2b04cfc41.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">   
+  </head>
+  
+  <body>
+      
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+      <div class="navbar__container">
+          <a href="#home" id="navbar__logo">
+          <i class="fab fa-ethereum"></i>E-CELL</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#initiatives" class="navbar__links" id="initiatives-page">Initiatives</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#gallery" class="navbar__links" id="gallery-page">Gallery</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#ask" class="navbar__links" id="ask-page">Ask Anything</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero" id="home">
+      <div class="hero__container" style="padding-top: 5px;">
+          <div class="hero__content">
+              <h1>E-CELL</h1>
+              <h2>PROJECT</h2>
+              <p>An introductory responsive website project.</p>
+              <button class="main__btn">
+                  <a href="https://ecellrgpv.com/">Explore</a>
+              </button>
+          </div>
+          <div class="main__img--contianer">
+              <img src="images/pic1.svg" alt="pic1" id="main__img">
+          </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--contianer">
+                <img src="images/ecell.svg" alt="ecell" id="main__img"></div>
+        </div>
+        <div class="main__content">
+          <h1>What we actually do?</h1>
+          <h2>We guide young entrepreneurs and technopreneurs in their journey from campus to incubators and support them in transforming their budding ideas into successful startups.</h2>
+          <p>Visit our official website!</p>
+          <button class="main__btn"><a href="https://ecellrgpv.com/">E-Cell RGPV</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Initiatives Section -->
+
+    <div class="initiatives ctm-head" id="initiatives">
+      <h1>Our Initiatives</h1>
+      <div class="initiatives__wrapper">
+        <div class="initiatives__card">
+          <h2>Alumnus Entrepreneurship</h2>
+          <p>Organizes StartUp Master Sessions</p>
+        </div>
+        <div class="initiatives__card">
+          <h2>e-Mentoring Program</h2>
+          <p>Helps Budding Ventures</p>
+        </div>
+        <div class="initiatives__card">
+          <h2>Startup Internship Program</h2>
+          <p>Developing Streak Among Campus Students</p>
+        </div>
+        <div class="initiatives__card">
+          <h2>Startup Incubation</h2>
+          <p>Sharing Entreoreneurship Endeavors</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo Gallery Section -->
+<div id="gallery" class="ctm-bg ctm-head">
+  
+  <h1>E-Cell Gallery</h1> <br>
+  <div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="/images/pic2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="/images/pic3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="/images/pic4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="/images/pic5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="/images/pic6.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div class="slidebody"style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+</div>
+    <!-- Ask Section -->
+    <div class="main" id="ask">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Do you have any question!</h1>
+          <h2>Ask our mentors today!</h2>
+          <p>See what makes us different.</p>
+        </div>
+        <div class="main__img--container">
+          <div class="container">
+            <form id="askForm" class="form">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">India</option>
+                    <option value="canada">France</option>
+                    <option value="canada">Germany</option>
+                    <option value="canada">UK</option>
+                    <option value="canada">Russia</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Type Here</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Ask anything..." style="height:200px" required></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit" onclick="myFunction()">
+              </div>
+            </form>
+
+          </div>             
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About</h2>
+            <a href="#about">What we actually do</a> <a href="https://ecellrgpv.com">Visit our website</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Our Initiatives</h2>
+            <a href="https://ecellrgpv.com/alumni">Alumnus Entrepreneurship</a> <a href="https://ecellrgpv.com/e-mentoring">e-Mentoring Program</a>
+            <a href="https://ecellrgpv.com/sip">Startup Internship Program</a> <a href="https://ecellrgpv.com/startupIncubation">Startup Incubation</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Ask Anything</h2>
+            <a href="https://ecellrgpv.com/contact">Contact Us</a>
+            <a href="#ask">Send your queries</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/ecell_rgpv">Instagram</a> <a href="https://www.facebook.com/ECellRGPV">Facebook</a>
+            <a href="https://www.linkedin.com/company/e-entrepreneurship-cell-rgpv">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="footer__logo">E-CELL Project</a>
+          </div>
+          <p class="website__rights">© E-CELL PROJECT 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/ECellRGPV" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/ecell_rgpv" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/e-entrepreneurship-cell-rgpv" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
