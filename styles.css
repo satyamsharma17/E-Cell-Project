@@ -191,18 +191,18 @@
   
   .hero__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.4fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 105vh;
+    height: 100vh;
     background-color: #131313;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding-right: 30px;
+    /* padding-right: 0.2px; */
     padding-left: 30px;
-  }
+}
   
   .hero__content {
     color: #fff;
