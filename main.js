@@ -20,26 +20,26 @@ const highlightMenu = () => {
   let scrollPos = window.scrollY;
 
   // Logic for highlighting menu items.
-  if (window.innerWidth > 960 && scrollPos < 600) {
+  if (window.innerWidth > 960 && scrollPos < 700) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1400) {
+  } else if (window.innerWidth > 960 && scrollPos < 1450) {
     aboutMenu.classList.add('highlight');
     homeMenu.classList.remove('highlight');
     initiativesMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2045) {
+  } else if (window.innerWidth > 960 && scrollPos < 2245) {
     initiativesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     galleryMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2690) {
+  } else if (window.innerWidth > 960 && scrollPos < 3200) {
     galleryMenu.classList.add('highlight');
     initiativesMenu.classList.remove('highlight');
     askMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 4100) {
+  } else if (window.innerWidth > 960 && scrollPos < 4600) {
     askMenu.classList.add('highlight');
     galleryMenu.classList.remove('highlight');
     return;
